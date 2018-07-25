@@ -22,6 +22,9 @@
 		51789DC121073CA3009F876F /* Poppins-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 51789DB921073CA3009F876F /* Poppins-Black.otf */; };
 		51789DC421073CC8009F876F /* fa-brands-400.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51789DC221073CC7009F876F /* fa-brands-400.ttf */; };
 		51789DC521073CC8009F876F /* fa-solid-900.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51789DC321073CC7009F876F /* fa-solid-900.ttf */; };
+		51789DC721075968009F876F /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51789DC621075968009F876F /* CurrentWeather.swift */; };
+		51789DC921075A1A009F876F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51789DC821075A1A009F876F /* Constants.swift */; };
+		51789DCB21087116009F876F /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51789DCA21087116009F876F /* Location.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +45,9 @@
 		51789DB921073CA3009F876F /* Poppins-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.otf"; sourceTree = "<group>"; };
 		51789DC221073CC7009F876F /* fa-brands-400.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fa-brands-400.ttf"; sourceTree = "<group>"; };
 		51789DC321073CC7009F876F /* fa-solid-900.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fa-solid-900.ttf"; sourceTree = "<group>"; };
+		51789DC621075968009F876F /* CurrentWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
+		51789DC821075A1A009F876F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		51789DCA21087116009F876F /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,9 +84,12 @@
 				51789D9F21073C54009F876F /* AppDelegate.swift */,
 				51789DA121073C54009F876F /* ViewController.swift */,
 				51789DA321073C54009F876F /* Main.storyboard */,
+				51789DCA21087116009F876F /* Location.swift */,
+				51789DC821075A1A009F876F /* Constants.swift */,
 				51789DA621073C55009F876F /* Assets.xcassets */,
 				51789DA821073C55009F876F /* LaunchScreen.storyboard */,
 				51789DAB21073C55009F876F /* Info.plist */,
+				51789DC621075968009F876F /* CurrentWeather.swift */,
 			);
 			path = Goolf;
 			sourceTree = "<group>";
@@ -184,7 +193,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				51789DA221073C54009F876F /* ViewController.swift in Sources */,
+				51789DC721075968009F876F /* CurrentWeather.swift in Sources */,
+				51789DCB21087116009F876F /* Location.swift in Sources */,
 				51789DA021073C54009F876F /* AppDelegate.swift in Sources */,
+				51789DC921075A1A009F876F /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
